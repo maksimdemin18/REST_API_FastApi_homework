@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  advertisement_api:
+    build: .
+    container_name: advertisement_api
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////app/data/advertisements.db
+    volumes:
+      - advertisement_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  advertisement_data:
