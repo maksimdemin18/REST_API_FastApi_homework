@@ -49,6 +49,8 @@ http://localhost:8000
 ```
 http://localhost:8000/docs
 ```
+<img width="1719" height="740" alt="image" src="https://github.com/user-attachments/assets/f1af7865-75c9-4868-8b7a-981d212d56f7" />
+
 Примеры запросов
 Создание объявления
 ```
